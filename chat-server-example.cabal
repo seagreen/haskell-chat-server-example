@@ -15,7 +15,8 @@ cabal-version:       >=1.10
 executable chat-server
   main-is:          Main.hs
 
-  other-modules:    Client
+  other-modules:    Channel
+                  , Client
                   , Server
                   , Types
 
